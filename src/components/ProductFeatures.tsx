@@ -3,7 +3,7 @@ import { Check } from "lucide-react";
 const ProductFeatures = () => {
   const features = [
     "Película adesiva de alta qualidade",
-    "Transforma visual do iPhone 11 em 13 Pro Max",
+    "Transforma visual do iPhone XR em 13 Pro Max",
     "Fácil instalação - não precisa de experiência",
     "Material resistente a arranhões",
     "Não interfere em câmeras ou funções",

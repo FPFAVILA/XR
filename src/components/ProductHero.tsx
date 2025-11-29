@@ -10,7 +10,7 @@ interface ProductHeroProps {
   whatsappNumber?: string;
 }
 
-const ProductHero = ({ whatsappNumber = "5511999999999" }: ProductHeroProps) => {
+const ProductHero = ({ whatsappNumber = "55XR999999999" }: ProductHeroProps) => {
   const navigate = useNavigate();
   const [selectedColor, setSelectedColor] = useState<"Branco" | "Preto" | "Vermelho">("Branco");
   const [stockCount] = useState(3);
@@ -31,8 +31,8 @@ const ProductHero = ({ whatsappNumber = "5511999999999" }: ProductHeroProps) => 
         currency: 'BRL',
         contents: [
           {
-            content_id: 'kit-iphone-11-13-pro-max',
-            content_name: 'Kit para Transformar iPhone 11 no 13 Pro Max',
+            content_id: 'kit-iphone-XR-13-pro-max',
+            content_name: 'Kit para Transformar iPhone XR no 13 Pro Max',
             quantity: 1,
             price: 9.90
           }
@@ -83,7 +83,7 @@ const ProductHero = ({ whatsappNumber = "5511999999999" }: ProductHeroProps) => 
           </div>
 
           <h1 className="text-2xl md:text-4xl font-display font-bold leading-tight">
-            Kit para Transformar iPhone 11 no 13 Pro Max
+            Kit para Transformar iPhone XR no 13 Pro Max
           </h1>
 
           {/* Rating Stars - Clickable */}
@@ -93,7 +93,7 @@ const ProductHero = ({ whatsappNumber = "5511999999999" }: ProductHeroProps) => 
           >
             <div className="flex">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className="h-4 w-4 md:h-5 md:w-5 fill-accent text-accent transition-transform group-hover:scale-110" />
+                <Star key={i} className="h-4 w-4 md:h-5 md:w-5 fill-accent text-accent transition-transform group-hover:scale-XR0" />
               ))}
             </div>
             <span className="text-sm font-semibold group-hover:text-accent transition-colors">

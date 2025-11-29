@@ -16,7 +16,7 @@ const Reviews = () => {
     {
       name: "Maria Silva",
       rating: 5,
-      comment: "Produto incrível! Meu iPhone 11 ficou com aparência de 13 Pro Max. Super recomendo!",
+      comment: "Produto incrível! Meu iPhone xr ficou com aparência de 13 Pro Max. Super recomendo!",
       image: review1,
     },
     {
@@ -58,7 +58,7 @@ const Reviews = () => {
     {
       name: "Rafael Oliveira",
       rating: 5,
-      comment: "Não acreditava que seria tão bom! Meu 11 ficou idêntico ao 13 Pro Max. Impressionante!",
+      comment: "Não acreditava que seria tão bom! Meu xr ficou idêntico ao 13 Pro Max. Impressionante!",
       image: review8,
     },
     {
